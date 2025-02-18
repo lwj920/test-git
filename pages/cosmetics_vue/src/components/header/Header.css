@@ -1,0 +1,38 @@
+header{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  padding: 10px;
+}
+header h1{
+  margin-top: 10px;
+  font-size: 50px;
+  margin-right: auto;
+}
+header .headerRight{
+  margin-top: -5px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column
+}
+header .headerRight>ul{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap:50px;
+}
+header .headerRight>ul i{
+  padding-right: 5px;
+}
+header .headerRight nav ul{
+  margin-top: 20px;
+  display: flex;
+}
+header .headerRight nav ul li{
+  border-left: 2px solid gray;
+  padding: 0 10px;
+}
+header .headerRight nav ul li:nth-child(1){
+  padding-left: 0;
+  border-left: none;
+}

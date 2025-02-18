@@ -1,0 +1,33 @@
+.Container{
+  position: relative;
+}
+
+.Swiper {
+  margin-top: 30px;
+}
+#root .App .swiper-button-next{
+  width: 10px;
+  height: 10px;
+  padding: 30px 30px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, .2);
+  color: #666;
+}
+#root .App .swiper-button-prev{
+  width: 10px;
+  height: 10px;
+  padding: 30px 30px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, .2);
+  color: #666;
+}
+.swiper-slide img {
+  width: 100%;
+}
+.swiper-pagination-horizontal{
+  margin-bottom: 30px;
+}
+#root .App .swiper-pagination-bullet{
+  padding: 5px;
+  background: #666;
+}

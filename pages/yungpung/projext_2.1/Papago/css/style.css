@@ -1,0 +1,204 @@
+@charset 'utf-8';
+/* 초기화 */
+*{margin: 0;padding: 0;}
+li{list-style-type: none; color: initial;}
+a{text-decoration: none; color: initial;}
+address{font-style: normal;}
+small{font-size: 12px;}
+/* 기본글자서식 */
+body{font:14px 900 '돋움',dotum,sans-serif; color: #333}
+input{
+  outline: none;
+  border: 1px solid #ccc;
+}
+select{
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+/* 공동서식 */
+.inner{
+  width: 600px;
+  margin: 0 auto;
+  /* outline: 1px dotted red; */
+}
+.clearFix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+h1{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.ant{
+  padding-bottom: 30px;
+}
+.left{
+  display: block;
+  float: left;
+  padding: 3px;
+  width: 44%;
+  border-radius: 10px;
+  background: #c4c4c4;
+}
+.box{
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+.center{
+  position: relative;
+  top: -8px;
+  left: 10px;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  color: white;
+  background: #32c401;
+  box-sizing: border-box;
+}
+.center p{
+  text-align: center;
+  line-height: 20px;
+}
+.rght{
+  display: block;
+  float: left;
+  margin-left: 20px;
+  padding: 3px;
+  width: 47%;
+  border-radius: 10px;
+  background: #c4c4c4;
+}
+
+
+.id input{
+  
+  box-sizing: border-box;
+  width: 335px;
+  height: 30px;
+}
+.id button{
+  position: relative;
+  top: 2px;
+  background: rgb(14, 155, 14);
+  border: none;
+  width: 215px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.pass input{
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+}
+.pass2 input{
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+}
+.name input{
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+}
+.day input{
+  width: 39%;
+  height: 30px;
+}
+.day select{
+  width: 83px;
+  height: 30px;
+}
+.sex select{
+
+  width: 100%;
+  height: 30px;
+}
+.email input{
+  width: 47.6%;
+  height: 30px;
+}
+.email select{
+  width: 47.5%;
+  height: 30px;
+}
+.tel select{
+  width: 31%;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.tel input{
+  width: 31%;
+  height: 30px;
+}
+.tel a{
+  position: relative;
+  top: 2px;
+  padding: 6px 47px;
+  background: rgb(14, 155, 14);
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.tel a:hover{
+  background: rgb(44, 175, 44);
+  border-radius: 5px;
+}
+h2{
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  background: rgb(14, 155, 14);
+  border-radius: 5px;
+}
+h2 a:hover{
+  background: rgb(44, 175, 44);
+  border-radius: 5px;
+}
+h2 a{
+  display: block;
+  padding: 10px 0;
+  color: white;
+}
+
+footer{
+  margin-top: 50px;
+}
+footer ul{
+  margin: 10px 0;
+}
+footer ul li{
+  padding: 0 6px;
+  float: left;
+  border-left: 1px solid #ccc;
+}
+footer ul li:first-child{
+  border: none;
+}
+footer ul li a{
+  display: block;
+
+}
+footer #Copyright h3{
+  padding: 0 0 0 80px;
+  margin-top: 15px;
+  margin-left: 20px;
+  float: left;
+}
+footer #Copyright h3 a{
+  margin-right: 20px;
+}
+footer #Copyright p{
+  line-height: 70px;
+
+}

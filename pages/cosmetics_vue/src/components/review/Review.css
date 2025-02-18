@@ -1,0 +1,46 @@
+.Review{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.Review h2{
+  font-size: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-weight: 900;
+  color: #dbd033;
+}
+.Review h2 span{
+  color: #8a0101;
+}
+.ReviewItem{
+  flex-direction:row ;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.ReviewItem ul{
+  width: 288px;
+}
+.ReviewItem ul li{
+  font-size: 13px;
+  line-height: 18px;
+}
+.ReviewItem .ReviewSize{
+  height:235px;
+  overflow: hidden;
+}
+.ReviewItem .reviewTitle{
+  font-size: 20px;
+  font-weight:bolder;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.ReviewItem .reviewText{
+  color: #666;
+}
+.ReviewItem .reviewBest{
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 900;
+  color: #666;
+}

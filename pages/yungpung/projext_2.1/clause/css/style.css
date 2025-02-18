@@ -1,0 +1,310 @@
+@charset 'utf-8';
+
+*{margin: 0;padding: 0;}
+li{list-style-type: none; color: initial;}
+a{text-decoration: none; color: initial;}
+address{font-style: normal;}
+small{font-size: 12px;}
+
+body{font:14px 900 '돋움',dotum,sans-serif; color: #333}
+
+.inner{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.clearFix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+
+
+.left{
+  display: block;
+  float: left;
+  padding: 3px;
+  width: 25%;
+  border-radius: 10px;
+  background: #c4c4c4;
+}
+.center{
+  position: relative;
+  top: -8px;
+  left: 10px;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  color: white;
+  background: #32c401;
+}
+.center p{
+  text-align: center;
+  line-height: 20px;
+}
+.rght{
+  display: block;
+  float: left;
+  margin-left: 20px;
+  padding: 3px;
+  width: 66%;
+  border-radius: 10px;
+  background: #c4c4c4;
+}
+
+
+.top{
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.top a{
+  display: block;
+  width: 100%;
+  /* background: yellow; */
+  margin-top: 20px;
+  padding: 10px 0px;
+}
+
+.container{
+  margin-left: 100px;
+  text-align: left;
+}
+.naver{
+  background: #32c401;
+  color: white;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  width: 350px;
+  height: 46px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.naver:hover{
+  background: #2baa00;
+}
+.view1{
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.view1.active{
+  overflow: auto;
+  opacity: 1;
+  height: 350px;
+}
+
+.apple{
+  background: #505050;
+  color: white;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  width: 350px;
+  height: 46px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.apple:hover{
+  background: #000;
+}
+.view2{
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.view2.active{
+  overflow: auto;
+  opacity: 1;
+  height: 350px;
+}
+
+.google{
+  color: #333;
+  background: white;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  width: 350px;
+  height: 46px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.google:hover{
+  background: #eee;
+}
+.view3{
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.view3.active{
+  overflow: auto;
+  opacity: 1;
+  height: 350px;
+}
+
+.kakao{
+  color: #333;
+  background: #FFE500;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  width: 350px;
+  height: 46px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.kakao:hover{
+  background: #e9d200;
+}
+.view4{
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.view4.active{
+  overflow: auto;
+  opacity: 1;
+  height: 350px;
+}
+
+
+.phon{
+  background: white;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  width: 350px;
+  height: 46px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.phon:hover{
+  background: #eeeeee;
+}
+.view5{
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+.view5.active{
+  overflow: auto;
+  opacity: 1;
+  height: 350px;
+}
+
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  height: 50px;
+}
+header a{
+  float: left;
+}
+header .select{
+  line-height: 50px;
+  display: block;
+  float: right;
+}
+
+.checkbox {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid #999;
+  appearance: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.checkbox:checked {
+  background: #43ac43;
+  border: none;
+}
+.checkbox{
+  margin-top: 20px;
+}
+.checkbox:hover{
+  background: #43ac43;
+}
+
+
+label{
+  position: relative;
+  margin: 0 10px;
+  top: -6px;
+  font-weight: 900;
+}
+.text{
+  margin: 5px 34px;
+}
+.box_text{
+  border: 1px solid #999;
+  margin: 5px 34px;
+  height: 100px;
+  overflow: hidden;
+}
+.box_text2{
+  border: 1px solid #999;
+  margin: 5px 34px;
+  padding: 0 0 5px 0;
+  overflow: hidden;
+}
+.green{
+  font-size: 14px;
+  color: green;
+}
+.p5 p{
+  margin-left: 35px;
+}
+.p5 input{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  line-height: 26px;
+  border: 1px solid #999;
+  appearance: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-right: 10px;
+}
+
+
+
+.moovbox {
+  position: fixed;
+
+  background: white;
+  width: 100%;
+  height: 210px;
+  left: -1px;
+  top: 750px;
+}
+.moovbox a{
+  position: relative;
+  top: 60px;
+  left: 42%;
+  border-radius: 30px;
+  display: block;
+  width: 120px;
+  padding: 15px 100px;
+  background: #eee;
+}
+.moovbox a:hover{
+  background: #43ac43;
+}
