@@ -132,7 +132,7 @@ header .img{
   margin-top: 50px;
   padding-top: 50px;
   padding-left: 10px;
-  height: 400px;
+  height: 500px;
   transition: 0.5s;
 }
 header .img:hover{
@@ -205,8 +205,8 @@ header .img:hover{
 }
 .right .get{
   position: absolute;
-  top: 651px;
-  left: 843px;
+  top: 652px;
+  left: 844px;
   transition: 0.3s;
   opacity: 0;
 }
@@ -581,7 +581,7 @@ header .img:hover{
   box-sizing: border-box;
 }
 .p4 .p4__right div:hover{
-  background: url(../images/abc_cefe.JPG);
+  background: url(../images/abc_caffe.png);
   background-size : cover;
 }
 

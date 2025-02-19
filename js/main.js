@@ -1,4 +1,3 @@
-alert('해당 페이지는 1980x1020사이즈에 최적화되어있습니다')
 
 const btn = document.querySelector('#TOP');
 const box_pst = document.querySelectorAll('.rightMenu')[0].offsetTop;
@@ -8,7 +7,7 @@ btn.addEventListener('click',function(){
 const btn1 = document.querySelector('#COVER');
 const box_pst1 = document.querySelectorAll('.p0__bg')[0].offsetTop;
 btn1.addEventListener('click',function(){
-  window.scrollTo({left:0, top:box_pst1-100, behavior: 'smooth'})
+  window.scrollTo({left:0, top:box_pst1-70, behavior: 'smooth'})
 });
 const btn2 = document.querySelector('#TEL');
 const box_pst2 = document.querySelectorAll('.p1__bg')[0].offsetTop;
